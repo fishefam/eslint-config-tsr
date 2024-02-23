@@ -57,14 +57,14 @@ module.exports = {
     '@stylistic/jsx-one-expression-per-line': 'off',
     '@stylistic/jsx-pascal-case': ['error', { allowLeadingUnderscore: true, allowNamespace: true }],
     '@stylistic/jsx-props-no-multi-spaces': 'error',
-    '@stylistic/jsx-wrap-multilines': 'error',
-    '@stylistic/jsx/jsx-self-closing-comp': [
+    '@stylistic/jsx-self-closing-comp': [
       'error',
       {
         component: true,
         html: true,
       },
     ],
+    '@stylistic/jsx-wrap-multilines': 'error',
     '@stylistic/operator-linebreak': 'off',
     '@stylistic/ts/arrow-parens': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
