@@ -79,6 +79,7 @@ module.exports = {
       },
     ],
     'sort-destructure-keys/sort-destructure-keys': 'error',
+    'sort-react-dependency-arrays/sort': 'error',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
