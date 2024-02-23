@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tsr",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "index.js",
   "author": "Truong Nguyen",
   "license": "MIT",
@@ -23,10 +23,8 @@
   "dependencies": {
     "@typescript-eslint/parser": "^7.0.2",
     "eslint-config-prettier": "^9.1.0",
-    "prompt-choices": "^5.0.0",
     "prompts": "^2.4.2",
-    "yargs": "^17.7.2",
-    "yesno": "^0.4.0"
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
