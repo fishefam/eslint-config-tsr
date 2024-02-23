@@ -57,13 +57,7 @@ module.exports = {
     '@stylistic/jsx-one-expression-per-line': 'off',
     '@stylistic/jsx-pascal-case': ['error', { allowLeadingUnderscore: true, allowNamespace: true }],
     '@stylistic/jsx-props-no-multi-spaces': 'error',
-    '@stylistic/jsx-self-closing-comp': [
-      'error',
-      {
-        component: true,
-        html: true,
-      },
-    ],
+    '@stylistic/jsx-self-closing': 'off',
     '@stylistic/jsx-wrap-multilines': 'error',
     '@stylistic/operator-linebreak': 'off',
     '@stylistic/ts/arrow-parens': 'off',
@@ -77,6 +71,13 @@ module.exports = {
     ],
     'linebreak-style': ['warn', 'unix'],
     'react/react-in-jsx-scope': 'off',
+    'react/self-closing-comp': [
+      'error',
+      {
+        component: true,
+        html: true,
+      },
+    ],
     'sort-destructure-keys/sort-destructure-keys': 'error',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
