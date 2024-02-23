@@ -58,6 +58,13 @@ module.exports = {
     '@stylistic/jsx-pascal-case': ['error', { allowLeadingUnderscore: true, allowNamespace: true }],
     '@stylistic/jsx-props-no-multi-spaces': 'error',
     '@stylistic/jsx-wrap-multilines': 'error',
+    '@stylistic/jsx/jsx-self-closing-comp': [
+      'error',
+      {
+        component: true,
+        html: true,
+      },
+    ],
     '@stylistic/operator-linebreak': 'off',
     '@stylistic/ts/arrow-parens': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
