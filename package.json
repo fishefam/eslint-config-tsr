@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tsr",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "index.js",
   "author": "Truong Nguyen",
   "license": "MIT",
@@ -17,7 +17,6 @@
     "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=4",
     "eslint-plugin-sort-destructure-keys": ">=1",
-    "eslint-plugin-sort-react-dependency-arrays": ">=0",
     "eslint-plugin-unused-imports": ">=3"
   },
   "dependencies": {

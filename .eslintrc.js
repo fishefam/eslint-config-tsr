@@ -36,15 +36,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  plugins: [
-    '@stylistic',
-    '@typescript-eslint',
-    'hooks',
-    'react',
-    'sort-destructure-keys',
-    'sort-react-dependency-arrays',
-    'unused-imports',
-  ],
+  plugins: ['@stylistic', '@typescript-eslint', 'hooks', 'react', 'sort-react-dependency-arrays', 'unused-imports'],
   rules: {
     ...customized.rules,
     '@stylistic/arrow-parens': 'off',
@@ -78,7 +70,6 @@ module.exports = {
         html: true,
       },
     ],
-    'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-react-dependency-arrays/sort': 'error',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [

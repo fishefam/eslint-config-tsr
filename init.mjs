@@ -7,7 +7,7 @@ import { hideBin } from 'yargs/helpers'
 import yargs from 'yargs/yargs'
 
 const PACKAGES =
-  'prettier eslint-config-tsr @stylistic/eslint-plugin @typescript-eslint/eslint-plugin eslint eslint-plugin-hooks eslint-plugin-perfectionist eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-sort-destructure-keys eslint-plugin-sort-react-dependency-arrays eslint-plugin-unused-imports @typescript-eslint/parser eslint-config-prettier'
+  'prettier eslint-config-tsr @stylistic/eslint-plugin @typescript-eslint/eslint-plugin eslint eslint-plugin-hooks eslint-plugin-perfectionist eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-sort-react-dependency-arrays eslint-plugin-unused-imports @typescript-eslint/parser eslint-config-prettier'
 
 main()
 
