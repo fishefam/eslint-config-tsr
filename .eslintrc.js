@@ -41,6 +41,8 @@ module.exports = {
     ...customized.rules,
     '@stylistic/arrow-parens': 'off',
     '@stylistic/brace-style': 'off',
+    '@stylistic/indent': 'off',
+    '@stylistic/indent-binary-ops': 'off',
     '@stylistic/js/arrow-parens': 'off',
     '@stylistic/jsx-closing-tag-location': 'error',
     '@stylistic/jsx-curly-newline': ['error', { multiline: 'forbid', singleline: 'forbid' }],
@@ -62,6 +64,7 @@ module.exports = {
       },
     ],
     'linebreak-style': ['warn', 'unix'],
+    'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/self-closing-comp': [
       'error',
