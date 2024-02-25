@@ -88,15 +88,16 @@ function createPrettierConfigJSON() {
     '.prettierrc.json',
     `{
   "arrowParens": "always",
-  "printWidth": 120,
   "endOfLine": "lf",
-  "jsxSingleQuote": false,
-  "quoteProps": "consistent",
-  "singleQuote": true,
-  "semi": false,
   "htmlWhitespaceSensitivity": "ignore",
-  "trailingComma": "all",
-  "singleAttributePerLine": true
+  "jsxSingleQuote": false,
+  "plugins": ["prettier-plugin-sort-json", "prettier-plugin-tailwindcss"],
+  "printWidth": 120,
+  "quoteProps": "consistent",
+  "semi": false,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "trailingComma": "all"
 }`,
   )
 }
