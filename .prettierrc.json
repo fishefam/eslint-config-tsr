@@ -1,6 +1,8 @@
 {
-    "semi": false,
-    "printWidth": 120,
-    "quoteProps": "consistent",
-    "singleQuote": true
+  "jsonRecursiveSort": true,
+  "plugins": ["prettier-plugin-sort-json", "prettier-plugin-tailwindcss"],
+  "printWidth": 120,
+  "quoteProps": "consistent",
+  "semi": false,
+  "singleQuote": true
 }

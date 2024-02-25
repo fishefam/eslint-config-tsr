@@ -1,22 +1,27 @@
 {
   "name": "eslint-config-tsr",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "Truong Nguyen",
   "license": "MIT",
   "bin": "init.mjs",
   "scripts": {
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "format": "prettier . --write"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": ">=1",
     "@typescript-eslint/eslint-plugin": ">=7",
-    "eslint": ">=8",
     "eslint-plugin-hooks": ">=0",
     "eslint-plugin-perfectionist": ">=2",
-    "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=4",
-    "eslint-plugin-unused-imports": ">=3"
+    "eslint-plugin-react": ">=7",
+    "eslint-plugin-sort-react-dependency-arrays": ">=0",
+    "eslint-plugin-tailwindcss": ">=3",
+    "eslint-plugin-unused-imports": ">=3",
+    "eslint": ">=8",
+    "prettier-plugin-sort-json": ">=3",
+    "prettier-plugin-tailwindcss": ">=0"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^7.0.2",

@@ -20,9 +20,10 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
     'plugin:perfectionist/recommended-alphabetical',
     'plugin:react-hooks/recommended',
+    'plugin:react/recommended',
+    'plugin:tailwindcss/recommended',
     'prettier',
   ],
   overrides: [
