@@ -54,6 +54,7 @@ module.exports = {
     '@stylistic/jsx-props-no-multi-spaces': 'error',
     '@stylistic/jsx-self-closing': 'off',
     '@stylistic/jsx-wrap-multilines': 'error',
+    '@stylistic/member-delimiter-style': 'off',
     '@stylistic/operator-linebreak': 'off',
     '@stylistic/ts/arrow-parens': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
