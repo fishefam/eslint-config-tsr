@@ -90,6 +90,7 @@ function createPrettierConfigJSON() {
   "arrowParens": "always",
   "endOfLine": "lf",
   "htmlWhitespaceSensitivity": "ignore",
+  "jsonRecursiveSort": true,
   "jsxSingleQuote": false,
   "plugins": ["prettier-plugin-sort-json", "prettier-plugin-tailwindcss"],
   "printWidth": 120,
