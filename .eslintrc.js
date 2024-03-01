@@ -11,12 +11,7 @@ const customized = stylistic.configs.customize({
 })
 
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-    es2021: true,
-    node: true,
-  },
+  env: { browser: true, commonjs: true, es2021: true, node: true },
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -26,17 +21,9 @@ module.exports = {
     'plugin:tailwindcss/recommended',
     'prettier',
   ],
-  overrides: [
-    {
-      env: { node: true },
-      files: ['.eslintrc.{js,cjs}'],
-      parserOptions: { sourceType: 'script' },
-    },
-  ],
+  overrides: [{ env: { node: true }, files: ['.eslintrc.{js,cjs}'], parserOptions: { sourceType: 'script' } }],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 'latest',
-  },
+  parserOptions: { ecmaVersion: 'latest' },
   plugins: ['@stylistic', '@typescript-eslint', 'hooks', 'react', 'sort-react-dependency-arrays', 'unused-imports'],
   rules: {
     ...customized.rules,
@@ -57,34 +44,25 @@ module.exports = {
     '@stylistic/member-delimiter-style': 'off',
     '@stylistic/operator-linebreak': 'off',
     '@stylistic/ts/arrow-parens': 'off',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      { disallowTypeAnnotations: true, fixStyle: 'separate-type-imports', prefer: 'type-imports' },
+    ],
     '@typescript-eslint/no-unused-vars': 'off',
     'arrow-parens': 'off',
     'hooks/sort': [
       'error',
-      {
-        groups: ['useReducer', 'useContext', 'useState', 'useRef', 'useDispatch', 'useCallback', 'useEffect'],
-      },
+      { groups: ['useReducer', 'useContext', 'useState', 'useRef', 'useDispatch', 'useCallback', 'useEffect'] },
     ],
     'linebreak-style': ['warn', 'unix'],
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/self-closing-comp': [
-      'error',
-      {
-        component: true,
-        html: true,
-      },
-    ],
+    'react/self-closing-comp': ['error', { component: true, html: true }],
     'sort-react-dependency-arrays/sort': 'error',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
-      {
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-        vars: 'all',
-        varsIgnorePattern: '^_',
-      },
+      { args: 'after-used', argsIgnorePattern: '^_', vars: 'all', varsIgnorePattern: '^_' },
     ],
   },
   settings: { react: { version: 'detect' } },
