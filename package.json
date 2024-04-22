@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tsr",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "main": "index.js",
   "author": "Truong Nguyen",
   "license": "MIT",

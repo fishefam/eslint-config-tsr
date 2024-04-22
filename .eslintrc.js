@@ -59,6 +59,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/self-closing-comp': ['error', { component: true, html: true }],
     'sort-react-dependency-arrays/sort': 'error',
+    'tailwindcss/no-custom-classname': 'off',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
