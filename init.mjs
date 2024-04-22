@@ -96,7 +96,7 @@ function createPrettierConfigJSON() {
   "printWidth": 120,
   "quoteProps": "consistent",
   "semi": false,
-  "singleAttributePerLine": true,
+  "singleAttributePerLine": false,
   "singleQuote": true,
   "trailingComma": "all"
 }`,

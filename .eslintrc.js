@@ -35,7 +35,7 @@ module.exports = {
     '@stylistic/jsx-closing-tag-location': 'error',
     '@stylistic/jsx-curly-newline': ['error', { multiline: 'forbid', singleline: 'forbid' }],
     '@stylistic/jsx-equals-spacing': ['error', 'never'],
-    '@stylistic/jsx-max-props-per-line': ['error', { maximum: 3 }],
+    '@stylistic/jsx-max-props-per-line': ['error', { maximum: 5 }],
     '@stylistic/jsx-one-expression-per-line': 'off',
     '@stylistic/jsx-pascal-case': ['error', { allowLeadingUnderscore: true, allowNamespace: true }],
     '@stylistic/jsx-props-no-multi-spaces': 'error',
